@@ -1,4 +1,4 @@
-$files = Get-Item ./*.tar.gz 
+$files = dir .\* -include ('*.tar.gz', '*.lua')
 New-Item './index.html' -ItemType File -Force | out-null
 
 Add-Content './index.html' '<html><head>'
