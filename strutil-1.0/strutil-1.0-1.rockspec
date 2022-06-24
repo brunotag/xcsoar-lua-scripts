@@ -1,11 +1,11 @@
 package = "strutil"
 version = "1.0-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "https://brunotag.github.io/xcsoar-lua-scripts/strutil-1.0.tar.gz"
 }
 description = {
    summary = "string util library",
-   homepage = "*** please enter a project homepage ***",
+   homepage = "https://github.com/brunotag/xcsoar-lua-scripts/tree/master/strutil-1.0",
    license = "MIT"
 }
 dependencies = {
