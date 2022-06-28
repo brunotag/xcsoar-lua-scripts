@@ -1,0 +1,9 @@
+{
+    "phone": "+64123456789",
+
+    "ip": "localhost",
+    "port": "8787",
+    "path": "SendSMS",
+    "username": "user",
+    "password": "pws"
+}

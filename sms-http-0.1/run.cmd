@@ -1,0 +1,1 @@
+lua54 -l set-paths %1
