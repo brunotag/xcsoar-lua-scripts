@@ -31,13 +31,13 @@ location=5
 
 mode=TXT1
 type=key
-event=RunLuaFile _ops-normal.lua
+event=RunLuaFile txt/_ops-normal.lua
 label=Ops Normal
 location=7
 
 mode=TXT1
 type=key
-event=RunLuaFile _landing-out.lua
+event=RunLuaFile txt/_landing-out.lua
 label=Landing Out
 location=9
 
@@ -53,12 +53,12 @@ location=5
 
 mode=TXT2
 type=key
-event=RunLuaFile _cancel-landing-out.lua
+event=RunLuaFile txt/_cancel-landing-out.lua
 label=Cancel Landout
 location=7
 
 mode=TXT2
 type=key
-event=RunLuaFile _landed-safely.lua
+event=RunLuaFile txt/_landed-safely.lua
 label=Landed Safely
 location=9

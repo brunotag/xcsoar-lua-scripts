@@ -4,7 +4,7 @@ local char_to_hex = function(c)
   return string.format("%%%02X", string.byte(c))
 end
 
-url_utils.Encode = function (url)
+url_utils.encode = function(url)
   if url == nil then
     return
   end
@@ -18,7 +18,7 @@ local hex_to_char = function(x)
   return string.char(tonumber(x, 16))
 end
 
-url_utils.Decode = function(url)
+url_utils.decode = function(url)
   if url == nil then
     return
   end

@@ -25,7 +25,7 @@
 local json = { _version = "0.1.2" }
 
 -------------------------------------------------------------------------------
--- Encode
+-- encode
 -------------------------------------------------------------------------------
 
 local encode
@@ -77,7 +77,7 @@ local function encode_table(val, stack)
     if n ~= #val then
       error("invalid table: sparse array")
     end
-    -- Encode
+    -- encode
     for i, v in ipairs(val) do
       table.insert(res, encode(v, stack))
     end
@@ -137,7 +137,7 @@ end
 
 
 -------------------------------------------------------------------------------
--- Decode
+-- decode
 -------------------------------------------------------------------------------
 
 local parse
